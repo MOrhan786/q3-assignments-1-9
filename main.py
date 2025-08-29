@@ -13,7 +13,7 @@ agent = Agent(
         # WebSearchTool()
         FileSearchTool(
         max_num_results=3,
-      #   vector_store_ids=["vs_682f21a9eccc8191a5cf6198681860ec"],
+        vector_store_ids=["vs_682f21a9eccc8191a5cf6198681860ec"],
      )]
 )
 #--------------------------------------
